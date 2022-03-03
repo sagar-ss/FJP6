@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        /* ⭐ universal selector */
+            *{
+                background-color: aqua;
+            }
+
+            /* ⭐class attribute */
+            /* it is selected using . operator and class name */
+            /* we can apply more than one class on a html tag */
+            /* Same class can given to multiple tags */
+            .container1{
+                color: brown;
+            }
+            .container2{
+                background-color: beige;
+            }
+
+            /* ⭐ id attributes */
+            /* it is selected using # operator and id name */
+            /* id are unique */
+            #containerid{
+                color: blueviolet;
+            }
+
+            /* ⭐ groupping -> it is used when we have give same property to multiple tags */
+            .container3,.container4{
+                color: blueviolet;
+            }
+
+
+
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <h1 class="container1">I am Heading 1</h1>
+
+    <div class="container2">
+        <h1>Again I am Heading 1</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo itaque quod cupiditate consectetur maiores provident architecto doloribus dolorum. Ab sed itaque nobis, qui quia sit ipsum nihil culpa nulla fuga.</p>
+    </div>
+
+    <h2 class="container3">heading 2</h2>
+
+    <p class="container4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis provident quasi facere! Harum nulla labore natus? Saepe similique exercitationem animi qui voluptatibus eum hic, explicabo tempore debitis perspiciatis tenetur officia.</p>
+
+    <div id="containerid">
+
+        <!-- ⭐⭐Here we are giving more than one class on same tag -->
+        <h2 class="container1  container2">heading 2</h2>
+
+        <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1439953850471911426%2Fs4pE9SYa_400x400.jpg&imgrefurl=https%3A%2F%2Fmobile.twitter.com%2Firon_man&tbnid=JRB0M55emIhW9M&vet=12ahUKEwj04YjK4p32AhX1QGwGHe9SCcYQMygLegUIARD3AQ..i&docid=qArSYmohAekQoM&w=400&h=400&q=ironman%20picture&ved=2ahUKEwj04YjK4p32AhX1QGwGHe9SCcYQMygLegUIARD3AQ" alt="Iron man ">
+        <br>
+
+        <a  href="https://leetcode.com/ target="_blank">LeetCode</a>
+    </div>
+    
+</body>
+</html>
